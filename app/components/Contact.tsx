@@ -9,7 +9,7 @@ export default function Contact () {
             className="pt-8 flex flex-col w-full mx-auto">
 
                 <PiFlowerLotusDuotone 
-                                className="text-9xl text-rose-950 flex justify-center w-[100px] mx-auto"/>
+                                className="text-7xl text-rose-950 flex justify-center w-[100px] mx-auto"/>
                 
                 
                 {/* <Image
@@ -23,27 +23,37 @@ export default function Contact () {
                 <div
                     className="text-center flex flex-col items-center">
                     <h2
-                        className="font-amatic text-7xl font-extrabold text-rose-900  w-[95%] mx-auto">
-                        Pour Me Contacter: 
+                        className="font-amatic text-7xl md:text-8xl font-extrabold text-rose-900  w-[95%] md:w-[70%] mx-auto">
+                        Pour Contacter Angel: 
                     </h2>
                     <p
-                        className="font-beth text-[27px] text-rose-950 mt-6 text-center mb-10 w-[85%] mx-auto">
-                     Via mon adresse mail: angelNaturo@mail.com <br />
-                        Via mon téléphone: 06 60 50 50 50 <br />
-                        Via mes reseaux sociaux: 
-                        <ul>
-                            <li><GrInstagram 
-                                className="inline"/> @angelNaturo</li>
-                        </ul>
-                        
-
-
+                        className="font-beth text-lg md:text-[23px] text-rose-950 mt-6 text-center mb-6 md:mb-10 w-[85%] md:w-[75%] mx-auto leading-loose">
+                        <p
+                            className="pb-1"> Via son adresse mail:
+                        </p>
+                        <p
+                            className="pb-5"> angelique.bocquet@gmail.com
+                        </p>
+                        <p
+                            className="pb-1"> Via son téléphone :
+                        </p>
+                        <p
+                            className="pb-5"> 07 83 43 92 81
+                        </p>
+                        <p
+                            className="pb-1"> Via ses réseaux sociaux:
+                        </p>
+                        <p
+                            className="pb-1"> Instagram <span><GrInstagram 
+                            className="inline"/></span> : @angelNaturo
+                        </p>
+                       
 
                     </p>
                 </div>
                 
                 <div
-                    className="flex justify-center w-full">
+                    className="flex justify-center w-[90%] md:w-full mx-auto">
                 <Image
                     src="/images/margEnv.jpg"
                     alt="une bouteille d'huile de massage"

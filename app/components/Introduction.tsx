@@ -8,36 +8,35 @@ export default function Introduction () {
             className="pt-8 flex flex-col items-center w-full mx-auto">
 
                 <PiFlowerLotusDuotone 
-                                className="text-9xl text-rose-950 flex justify-center w-[100px] mx-auto"/>
+                                className="text-7xl text-rose-950 flex justify-center w-[100px] mx-auto"/>
                 
-                
-                {/* <Image
-                    src="/images/lotusSpa.avif"
-                    alt="une bouteille d'huile de massage"
-                    width={250}
-                    height ={300}
-                    className="rounded-xl mr-5"
-                /> */}
 
                 <div
                     className="text-center">
                     <h2
-                        className="font-amatic text-8xl font-extrabold text-rose-900  w-[95%] mx-auto">
+                        className="font-amatic text-7xl md:text-8xl font-extrabold text-rose-900  w-[95%] md:w-[70%] mx-auto">
                         Bienvenue dans l'Instant Angélique
                     </h2>
-                    <p
-                        className="font-beth text-[27px] text-rose-950 mt-6 text-center mb-10 w-[85%] mx-auto">
-                        Une bulle de calme et de volupté où bien-être et félicité seront conviés <br />
-                        Un espace hors du temps où vous retrouverez plaisir et ancrage <br />
-                        Où vous serez remerciez ce corps qui en a tant besoin <br />
-                        Pour finir par une petite dégustation pour les plus gourmands
+                    <div
+                        className="font-beth text-lg md:text-[23px] text-rose-950 mt-6 text-center mb-6 md:mb-10 w-[85%] md:w-[75%] mx-auto leading-loose">
+                        <p
+                            className="pb-3">Une bulle de calme et de volupté</p>
+                        <p
+                            className="pb-3">Où bien-être et félicité seront conviés</p>
+                        <p
+                            className="pb-3">Un espace hors du temps où vous retrouverez plaisir et ancrage</p> 
+                        <p
+                            className="pb-3">Où vous serez remerciez ce corps qui en a tant besoin</p>  
+                        <p
+                            className="pb-3">Pour finir par une petite flatterie des papilles pour les plus gourmands</p>
+                        
 
 
-                    </p>
+                    </div>
                 </div>
                 
                 <div
-                    className="flex justify-center w-full">
+                    className="flex justify-center w-[90%] md:w-full">
                 <Image
                     src="/images/infu.jpg"
                     alt="une bouteille d'huile de massage"
