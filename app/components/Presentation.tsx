@@ -45,13 +45,17 @@ export default function Presentation () {
                         </div>
                             
                     <div
-                        className="flex justify-center w-[90%] md:w-full mx-auto">
+                        className="flex justify-center items-center w-[90%] md:w-full mx-auto">
                         <Image
                             src="/images/chinoise.jpg"
                             alt="photo d'Angélique qui croise les doigts"
                             width={500}
                             height ={300}
-                            className="rounded-xl ml-5 mb-8"
+                            className="rounded-xl ml-5 mb-8 "
+                            // layout="fill"
+                            objectFit="cover" 
+                            objectPosition="center"
+
                         />
                     </div>
                          

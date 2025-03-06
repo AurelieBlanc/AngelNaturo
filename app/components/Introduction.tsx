@@ -26,7 +26,7 @@ export default function Introduction () {
                         <p
                             className="pb-3">Un espace hors du temps où vous retrouverez plaisir et ancrage</p> 
                         <p
-                            className="pb-3">Où vous serez remerciez ce corps qui en a tant besoin</p>  
+                            className="pb-3">Où vous serez remercier ce corps qui en a tant besoin</p>  
                         <p
                             className="pb-3">Pour finir par une petite flatterie des papilles pour les plus gourmands</p>
                         
@@ -36,10 +36,10 @@ export default function Introduction () {
                 </div>
                 
                 <div
-                    className="flex justify-center w-[90%] md:w-full">
+                    className="flex justify-center w-[90%] md:w-full mx-auto">
                 <Image
                     src="/images/infu.jpg"
-                    alt="une bouteille d'huile de massage"
+                    alt="une infusion"
                     width={500}
                     height ={300}
                     className="rounded-xl mb-10"

@@ -96,7 +96,7 @@ export default function Prestations () {
                         </p>
                         <p 
                             className="pb-3">
-                            Et bien sur un suivi pourra être mis en place pour vous accompagner vers votre meilleure version de vous-même
+                            Et bien sur un suivi pourra être mis en place pour vous accompagner vers votre nouvelle et meilleure version de vous-même
                         </p>
                         
                   
