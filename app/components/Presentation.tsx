@@ -53,8 +53,8 @@ export default function Presentation () {
                             height ={300}
                             className="rounded-xl ml-5 mb-8 "
                             // layout="fill"
-                            objectFit="cover" 
-                            objectPosition="center"
+                            // objectFit="cover" 
+                            // objectPosition="center"
 
                         />
                     </div>

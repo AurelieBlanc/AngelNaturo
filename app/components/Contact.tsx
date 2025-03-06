@@ -49,13 +49,17 @@ export default function Contact () {
                         <p
                             className="pb-1"> 
                             Instagram 
-                                <Link
+                                <Link 
                                     href="https://www.instagram.com/angeliquenaturopathe?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">
                                         <span 
                                             className="ml-2">
                                             <GrInstagram 
                                             className="inline"/>
-                                        : @angeliquenaturopathe
+                                        <span
+                                            className="underline">
+                                            : @angeliquenaturopathe
+                                        </span>
+                                            
                                     
                                         </span> 
                                 </Link>
