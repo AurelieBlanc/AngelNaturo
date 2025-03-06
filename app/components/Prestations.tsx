@@ -14,7 +14,7 @@ export default function Prestations () {
                                 className="text-7xl text-rose-950 flex justify-center w-[100px] mx-auto"/>
 
                 <div
-                    className="text-center flex flex-col items-center">
+                    className="text-center flex flex-col items-center md:w-[75%] xl:w-[60%]">
                     <h2
                         className="font-amatic font-extrabold text-7xl md:text-8xl  text-rose-900 mb-9 w-[95%] md:w-[70%]">
                         Les Prestations d'Angélique: 
@@ -96,7 +96,7 @@ export default function Prestations () {
                         </p>
                         <p 
                             className="pb-3">
-                            Et bien sur un suivi pourra être mis en place pour vous accompagner vers votre nouvelle version de vous-même
+                            Et bien sur un suivi pourra être mis en place pour vous accompagner vers votre meilleure version de vous-même
                         </p>
                         
                   
@@ -145,7 +145,7 @@ export default function Prestations () {
                   
                     </div>
                     <div 
-                        className="flex justify-center w-[90%] md:w-full mw-auto">
+                        className="flex justify-center w-[90%] md:w-full mx-auto">
                         <Image
                             src="/images/gateauFleurs.jpg"
                             alt="une bouteille d'huile de massage"

@@ -14,13 +14,14 @@ export default function Home() {
       
     <div
       className="flex flex-col w-[90%] mx-auto">
-
-
    
-      <Introduction />
-      <Presentation />
-      <Prestations />
-      <Contact />
+      <section id="Introduction"><Introduction /></section>
+
+      <section id="Présentation"><Presentation /></section>
+
+      <section id="Prestations"><Prestations /></section>
+
+      <section id="Contact"><Contact /></section>
 
       </div>
 

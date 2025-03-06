@@ -1,7 +1,7 @@
 import Image from "next/image"; 
 import { PiFlowerLotusDuotone } from "react-icons/pi"; // fleur de lotus
 import { GrInstagram } from "react-icons/gr"; // icone insta
-
+import Link from "next/link";
 
 export default function Contact () {
     return (
@@ -32,7 +32,10 @@ export default function Contact () {
                             className="pb-1"> Via son adresse mail:
                         </p>
                         <p
-                            className="pb-5"> angelique.bocquet@gmail.com
+                            className="pb-5 underline"> 
+                                <a href="mailto:contact@exemple.com">
+                                angelique.bocquet@gmail.com
+                                </a>
                         </p>
                         <p
                             className="pb-1"> Via son téléphone :
@@ -44,16 +47,24 @@ export default function Contact () {
                             className="pb-1"> Via ses réseaux sociaux:
                         </p>
                         <p
-                            className="pb-1"> Instagram <span><GrInstagram 
-                            className="inline"/></span> : @angelNaturo
-                        </p>
-                       
-
-                    </p>
+                            className="pb-1"> 
+                            Instagram 
+                                <Link
+                                    href="https://www.instagram.com/angeliquenaturopathe?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">
+                                        <span 
+                                            className="ml-2">
+                                            <GrInstagram 
+                                            className="inline"/>
+                                        : @angeliquenaturopathe
+                                    
+                                        </span> 
+                                </Link>
+                            </p>
+                       </p>
                 </div>
                 
                 <div
-                    className="flex justify-center w-[90%] md:w-full mx-auto">
+                    className="flex justify-center w-[90%] md:w-full mx-auto mb-9">
                 <Image
                     src="/images/margEnv.jpg"
                     alt="une bouteille d'huile de massage"
