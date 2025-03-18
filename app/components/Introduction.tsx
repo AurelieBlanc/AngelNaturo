@@ -26,7 +26,7 @@ export default function Introduction () {
                         <p
                             className="pb-3">Un espace hors du temps où vous retrouverez plaisir et ancrage</p> 
                         <p
-                            className="pb-3">Où vous serez remercier ce corps qui en a tant besoin</p>  
+                            className="pb-3">Où vous saurez remercier ce corps qui en a tant besoin</p>  
                         <p
                             className="pb-3">Pour finir par une petite flatterie des papilles pour les plus gourmands</p>
                         

@@ -80,7 +80,7 @@ export default function Prestations () {
                         className="font-beth text-lg md:text-[23px] text-rose-950 mt-6 text-center mb-6 md:mb-10 w-[85%] md:w-[75%] mx-auto leading-loose">
                         <p 
                             className="pb-5">
-                            Un entretien complet de 1h30 vous sera proposé où vos nabitudes seront analysées de manière holistique, 
+                            Un entretien complet de 1h30 vous sera proposé où vos habitudes seront analysées de manière holistique, 
                         </p>
                         <p 
                             className="pb-5">
@@ -96,7 +96,7 @@ export default function Prestations () {
                         </p>
                         <p 
                             className="pb-3">
-                            Et bien sur un suivi pourra être mis en place pour vous accompagner vers votre nouvelle et meilleure version de vous-même
+                            Et bien sur,  un suivi pourra être mis en place pour vous accompagner vers votre nouvelle et meilleure version de vous-même
                         </p>
                         
                   

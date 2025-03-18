@@ -32,7 +32,7 @@ export default function Presentation () {
                                 </p>
                                 <p
                                     className="pb-3">
-                                    Effectivement Angélique est aussi une cheffe naturo hors-pair et terriblement imaginative
+                                    Effectivement,  Angélique est aussi une cheffe naturo hors-pair et terriblement imaginative
                                 </p>
                                 <p
                                     className="pb-3">
