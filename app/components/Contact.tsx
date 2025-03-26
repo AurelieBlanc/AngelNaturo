@@ -1,9 +1,20 @@
+"use client"; 
+
 import Image from "next/image"; 
 import { PiFlowerLotusDuotone } from "react-icons/pi"; // fleur de lotus
 import { GrInstagram } from "react-icons/gr"; // icone insta
+import { IoIosEye } from "react-icons/io"; // icone eye <IoIosEye />
 import Link from "next/link";
+import { useState } from "react"; // import de useState pour gerer les states locaux
 
 export default function Contact () {
+
+    const [ displayContact, setDisplayContact ] = useState<boolean>(false); 
+    
+    function  switchDisplay () {
+        setDisplayContact ((prevState) => !prevState)
+    }
+
     return (
         <div
             className="pt-8 flex flex-col w-full mx-auto">
@@ -29,20 +40,36 @@ export default function Contact () {
                     <p
                         className="font-beth text-lg md:text-[23px] text-rose-950 mt-6 text-center mb-6 md:mb-10 w-[85%] md:w-[75%] mx-auto leading-loose">
                         <p
-                            className="pb-1"> Via son adresse mail:
+                            className="pb-1"> Via son adresse mail: 
+                            <IoIosEye 
+                                className="text-4xl inline-block ml-3"
+                                onClick={switchDisplay}/>
+
                         </p>
-                        <p
-                            className="pb-5 underline"> 
-                                <a href="mailto:contact@exemple.com">
-                                angelique.bocquet@gmail.com
-                                </a>
-                        </p>
+
+                        {displayContact &&
+                            (<p
+                                className="pb-5 underline"> 
+                                    <a href="mailto:contact@exemple.com">
+                                    angelique.bocquet@gmail.com
+                                    </a>
+                            </p>)
+                        }
+
                         <p
                             className="pb-1"> Via son téléphone :
+                            <IoIosEye 
+                                className="text-4xl inline-block ml-3"
+                                onClick={switchDisplay}/>
                         </p>
-                        <p
-                            className="pb-5"> 07 83 43 92 81
-                        </p>
+                        
+                        {displayContact &&
+                            (<p
+                                className="pb-5"> 07 83 43 92 81
+                            </p>)
+                        }
+                        
+
                         <p
                             className="pb-1"> Via ses réseaux sociaux:
                         </p>
