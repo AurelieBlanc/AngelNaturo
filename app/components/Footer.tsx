@@ -22,7 +22,7 @@ export default function Footer() {
                 
                 <Link
                     className=""
-                    href="https://www.instagram.com/angeliquenaturopathe?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">
+                    href="https://www.instagram.com/bewildbeweirdbewhite/">
                 
                     <GrInstagram />
                 </Link>
