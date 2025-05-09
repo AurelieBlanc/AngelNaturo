@@ -51,7 +51,7 @@ export default function Contact () {
                             (<p
                                 className="pb-5 underline"> 
                                     <a href="mailto:contact@exemple.com">
-                                    angelique.bocquet@gmail.com
+                                    test@mail.com
                                     </a>
                             </p>)
                         }
@@ -65,7 +65,7 @@ export default function Contact () {
                         
                         {displayContact &&
                             (<p
-                                className="pb-5"> 07 83 43 92 81
+                                className="pb-5"> 06 60 00 00 00
                             </p>)
                         }
                         
@@ -77,14 +77,14 @@ export default function Contact () {
                             className="pb-1"> 
                             Instagram 
                                 <Link 
-                                    href="https://www.instagram.com/angeliquenaturopathe?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">
+                                    href="https://www.instagram.com/bewildbeweirdbewhite/">
                                         <span 
                                             className="ml-2">
                                             <GrInstagram 
                                             className="inline"/>
                                         <span
                                             className="underline">
-                                            : @angeliquenaturopathe
+                                            : @bewildbeweirdbewhite
                                         </span>
                                             
                                     
@@ -104,6 +104,11 @@ export default function Contact () {
                     className="rounded-xl mb-10"
                 />
                 </div>
+
+                <p
+                    className="font-amatic text-5xl font-extrabold text-rose-950 text-center mb-2">
+                        *IMPORTANT: Ce site est une maquette réalisée pour un projet de portfolio, les informations affichées sont fictives. 
+                </p>
                  
 
         </div>
